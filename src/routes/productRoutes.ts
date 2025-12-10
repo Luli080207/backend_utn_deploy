@@ -7,7 +7,7 @@ import { z } from "zod";
 const router = Router();
 
 router.get("/", productCtrl.list);
-router.get("/;id", productCtrl.getOne);
+router.get("/:id", productCtrl.getOne);
 
 const productCreateSchema = z.object({
   name: z.string().min(1),
