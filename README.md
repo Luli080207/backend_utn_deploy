@@ -81,6 +81,12 @@ name= (busqueda parcial)
 
 Los filtros se aplican directamente en MongoDB.
 
+-- Endpoints principales
+Autenticación
+Método	Ruta	Descripción
+POST	/auth/register	Crear usuario
+POST	/auth/login	Iniciar sesión
+
 --- Ejecución local ---
 
 Clonar el repo
@@ -104,4 +110,6 @@ npm start
 
 deploy online:
 El backend esta deployado en el siguiente link: https://backend-utn-deploy.onrender.com/
+
+
 
